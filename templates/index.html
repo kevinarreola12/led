@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LED</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="top">
+    <h1>Control LED (Serial: LED_ON / LED_OFF)</h1>
+    <a class="logout" href="/logout">Salir</a>
+  </div>
+
+  <div class="row">
+      <img id="imgLed1" src="/static/img/bulb_off.svg" width="64" height="64" alt="LED 1">
+      <span>LED 1:</span>
+      <button id="btnOn1">LED ON</button>
+      <button id="btnOff1">LED OFF</button>
+    </div>
+
+    <div class="row">
+      <img id="imgLed2" src="/static/img/bulb_off.svg" width="64" height="64" alt="LED 2">
+      <span>LED 2:</span>
+      <button id="btnOn2">LED ON</button>
+      <button id="btnOff2">LED OFF</button>
+    </div>
+
+  <pre id="log"></pre>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
+
