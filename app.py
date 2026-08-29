@@ -4,7 +4,7 @@ import socket
 
 APP_USER = "KEVINARREOLA" #Ejemplo diana
 APP_PW_HASH = "scrypt:32768:8:1$ygUSSYXE57LDvDww$b72a588cd4b8eadde7e5a200f0ce0eb52fb8dd27c99db51edaf156a06e0444ff2b598ef3cae5b4bab769d211ccf198d395c0c92d9b6c24df095c2e9950e868a1"      # Ejemplo: "scrypt:32768:8:1$...$..."
-SECRET_KEY = "rubikdude2003." # Pon una clave larga y aleatoria 
+SECRET_KEY = "contrasenax" # Pon una clave larga y aleatoria 
 
 
 TCP_HOST = "127.0.0.1"
